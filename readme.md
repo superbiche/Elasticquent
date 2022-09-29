@@ -446,7 +446,7 @@ Similar to `Illuminate\Support\Collection`, the `chunk` method breaks the Elasti
 If you're dealing with raw search data from outside of Elasticquent, you can use the Elasticquent search results collection to turn that data into a collection.
 
 ```php
-$client = new \Elasticsearch\Client();
+$client = new \Elastic\Elasticsearch\Client();
 
 $params = array(
     'index' => 'default',
